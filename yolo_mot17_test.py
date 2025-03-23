@@ -3,7 +3,7 @@ import cv2
 from ultralytics import YOLO
 
 # === Set MOT17 image folder === #
-mot17_folder = input("Enter the path to the MOT17 dataset folder: ")
+mot17_folder = "data/MOT17/MOT17-02-FRCNN/img1" #Enter your path, this is an example
 output_path = "output_mot17/"  # Folder to save annotated images
 
 # === Make sure output directory exists === #
