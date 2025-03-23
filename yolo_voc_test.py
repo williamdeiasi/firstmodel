@@ -3,7 +3,7 @@ import cv2
 from ultralytics import YOLO
 
 # === Set VOC 2012 image path === #
-voc_images_path = "data/data/VOCdevkit/VOC2012/JPEGImages/"  # Change path if needed
+voc_images_path = "data/data/VOCdevkit/VOC2012/JPEGImages/"  # Enter your path, this is example
 output_path = "output_voc/"  # Folder to save annotated images
 
 # === Make sure output directory exists === #
